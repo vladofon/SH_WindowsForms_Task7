@@ -22,5 +22,11 @@ namespace SH_WindowsForms_Task7
             Task1 form = new Task1();
             form.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PrintTask2 form = new PrintTask2();
+            form.Show();
+        }
     }
 }
