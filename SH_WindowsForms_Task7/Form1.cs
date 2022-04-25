@@ -16,5 +16,11 @@ namespace SH_WindowsForms_Task7
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Task1 form = new Task1();
+            form.Show();
+        }
     }
 }
